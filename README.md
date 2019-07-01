@@ -4,6 +4,8 @@ DisGo Checker is a command line tool written in Go that is used to check the val
 
 ## Installation
 
+Install Go here: https://golang.org/doc/install
+
 Use 'go get' to install the discord go package
 
 ```bash
