@@ -1,8 +1,23 @@
-# discord-token-checker
-A command line discord token checker wrtiten in Go.
+# DisGo Checker
 
-Usage of ./discord-token-checker:
-  -b [OPTIONAL] The output file for broken tokens
-  -i [REQUIRED] Your input file containing unchecked tokens
-  -o [REQUIRED] Your output file name that will contain checked tokens
-  -t [REQUIRED] The amount of threads the app should run on (At least one) (default 1)
+DisGo Checker is a command line tool for checking the validity of discord tokens.
+
+## Installation
+
+Use 'go get' to install the discord go package
+
+```bash
+go get github.com/bwmarrin/discordgo
+```
+Then use 'go build' to create an executable.
+
+```bash
+go build main.go
+```
+
+## Usage
+
+```bash
+./disgo-checker -t 8 -o tokens.txt -i unchecked.txt -b broken.txt
+```
+
