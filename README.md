@@ -20,6 +20,6 @@ go build main.go
 ## Usage
 
 ```bash
-./disgo-checker -t 8 -o tokens.txt -i unchecked.txt -b broken.txt
+./{executable name} -t 8 -o tokens.txt -i unchecked.txt -b broken.txt
 ```
 
