@@ -20,6 +20,6 @@ go build main.go
 ## Usage
 
 ```bash
-./{executable name} -t {amoount of threads} -o {working tokens}.txt -i {unchecked tokens}.txt -b {non-working tokens}.txt
+./{executable name} -t {amount of threads} -o {working tokens}.txt -i {unchecked tokens}.txt -b {non-working tokens}.txt
 ```
 
