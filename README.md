@@ -1,6 +1,6 @@
 # disGo checker
 
-DisGo Checker is a command line tool written in Go that is used to check the validity of discord tokens.
+DisGo Checker is a command line tool written in Go that was created to quickly and efficiently check the validity of thousands of discord authentication tokens.
 
 ## Installation
 
