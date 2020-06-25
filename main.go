@@ -26,10 +26,10 @@ var tokens = make([]string, 0)
 
 func init() {
 
-	flag.StringVar(&inputfile, "i", "", "[REQUIRED] Your input file containing unchecked tokens.")
-	flag.IntVar(&threads, "t", 1, "[REQUIRED] The amount of threads the app should run on (at least one!).")
-	flag.StringVar(&outputfile, "o", "", "[REQUIRED] Your output file name that will contain checked tokens.")
-	flag.StringVar(&brokenfile, "b", "", "[OPTIONAL] The output file for broken tokens.")
+	flag.StringVar(&inputfile, "i", "", "[REQUIRED] Your input file containing unchecked tokens")
+	flag.IntVar(&threads, "t", 1, "[REQUIRED] The amount of threads the app should run on (at least one!)")
+	flag.StringVar(&outputfile, "o", "", "[REQUIRED] Your output file name that will contain checked tokens")
+	flag.StringVar(&brokenfile, "b", "", "[OPTIONAL] The output file for broken tokens")
 	flag.Parse()
 
 	if outputfile == "" || inputfile == "" || threads < 1 {
